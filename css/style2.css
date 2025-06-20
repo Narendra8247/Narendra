@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(16, 16, 57);
+    color: white;
+    padding: 20px 40px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 4px;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: rgb(172, 163, 163);
+}
+.hero-image img{
+    width: 400px;
+    height: auto;
+}
+.hero-txt h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.hero-txt p{
+    margin-bottom: 30px;
+    
+}
+
+.hero button{
+    padding: 15px 30px;
+    background-color: rgb(84, 84, 164);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.hero button:hover{
+    background-color: rgb(4, 4, 236);
+}
+.hero.text{
+    max-width: 500px;
+}
+.features{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 40px 20px;
+    gap: 20px;
+    text-align: center;
+}
+.feature{
+    flex : 1 1 250px;
+    background-color: rgb(127, 186, 223);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+.product h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.product.gallery{
+    background-color: rgb(172, 163, 163);
+    padding:40px 20px;
+    text-align: center;
+}
+
+.product.gallery h2{
+    background-color: rgb(172, 163, 163);
+    color: black;
+}
+.product.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+.product.card:hover{
+    transform: scale(1.1,1.1);
+    transition: transform .3s ease;
+}
+.contact{
+    background-color: rgb(61,128, 154);
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+}
